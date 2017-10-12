@@ -1,0 +1,43 @@
+Body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(219,219,219) !important;
+}
+
+
+/*Bannner*/
+#banner {
+	height: 128px;
+}
+
+#logo {
+	line-height: 120px;
+	display: inline-block;
+}
+
+#social_media {
+	display: inline-block;
+	float: right;
+	line-height: 120px;
+}
+
+#social_media img {
+	width: 30px;
+	height: 30px;
+	transition: opacity 0.1s;
+}
+
+#social_media img:hover {
+	opacity: 0.7;
+	transition: opacity 0.1s;
+}
+
+/*Navigation bar*/
+.navbar {
+	background-color: rgba(255, 240, 0, 0.5);
+}
+
+.navbar li a {
+	color: black;
+	text-decoration: none;
+}
