@@ -4,7 +4,6 @@ Body {
 	background-color: rgb(219,219,219) !important;
 }
 
-
 /*Bannner*/
 #banner {
 	height: 128px;
@@ -33,11 +32,29 @@ Body {
 }
 
 /*Navigation bar*/
-.navbar {
-	background-color: rgba(255, 240, 0, 0.5);
+.navbar{
+	background-color: rgba(14,41,54,1);
+	border-bottom: 1px solid;
 }
-
-.navbar li a {
-	color: black;
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active>.nav-link {
+	color: rgba(53, 204, 120, 1);
 	text-decoration: none;
 }
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .active>.nav-link:hover {
+	color: rgba(53, 204, 120, 0.64);
+	text-decoration: none;
+}
+
+/*Main content image for frontpage*/
+#mainContentImage {
+	padding: 0;
+}
+
+/*Main content area*/
+#mainContent {
+	background-color: white;
+}
+
+
+
